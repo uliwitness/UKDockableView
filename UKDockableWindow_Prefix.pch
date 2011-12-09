@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'UKDockableWindow' target in the 'UKDockableWindow' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
