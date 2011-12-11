@@ -1,0 +1,15 @@
+UKDOCKABLEVIEW
+
+This is currently a study of how one could implement a view that can be moved from one window to another or can be torn out of a window and made another window of its own.
+
+This technique could be used to e.g. implement Safari-style tabs where you can move them inside the tab bar, drop one tab into the tab bar of another window, or make a tab its own window.
+
+This code is about 7 years old and was made available upon request. I am not currently using it in any projects, but if someone wants to update this to suit the tabs use-case better, I'd be happy to take submissions.
+
+WARNING:
+
+The dragging code needs to be rewritten before this is suitable for use in a shipping product.
+
+LICENSE:
+
+As always, this is under a zlib-style license, but (c) Copyright 2004 M. Uli Kusterer.
