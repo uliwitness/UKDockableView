@@ -147,6 +147,14 @@ NSPoint			gUKDockableViewDragPosition;		// Mouse position while we're dragging t
 
 -(void)		mouseDown: (NSEvent*)evt
 {
+	/*
+		+++ TODO:
+		The whole dragging code is buggy. The cursor sometimes "shifts" from its
+		position relative to the dragged view. Should reimplement this as a loop
+		that runs its own event loop using nextEventMatchingMask:... and sendEvent:
+		in NSEventTrackingRunLoopMode.
+	*/
+	
 	NSRect		drawbox,
 				contentbox,
 				titlebar;
@@ -214,7 +222,7 @@ NSPoint			gUKDockableViewDragPosition;		// Mouse position while we're dragging t
 	globalPos.y = pos.y +winBox.origin.y;
 	
 	if( gUKDockableViewOverlayWindow
-		&& gUKDockableViewDragPosition.x != pos.x || gUKDockableViewDragPosition.y != pos.y )
+		&& (gUKDockableViewDragPosition.x != pos.x || gUKDockableViewDragPosition.y != pos.y) )
 	{
 		NSRect				box = [gUKDockableViewOverlayWindow frame];
 		
