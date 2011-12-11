@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554A83D51494CCB100AB7923 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554A83D31494CCB100AB7923 /* MainMenu.xib */; };
 		55DEB6541494C24700512C81 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DEB6531494C24700512C81 /* Cocoa.framework */; };
-		55DEB6771494C2EB00512C81 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 55DEB6751494C2EB00512C81 /* MainMenu.nib */; };
 		55DEB67C1494C31300512C81 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55DEB6781494C31300512C81 /* Credits.rtf */; };
 		55DEB67D1494C31300512C81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55DEB67A1494C31300512C81 /* InfoPlist.strings */; };
 		55DEB6801494C35700512C81 /* UKDockableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB67F1494C35700512C81 /* UKDockableView.m */; };
@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		554A83D41494CCB100AB7923 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
 		55DEB64F1494C24700512C81 /* UKDockableWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UKDockableWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DEB6531494C24700512C81 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		55DEB6561494C24700512C81 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +28,6 @@
 		55DEB6581494C24700512C81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55DEB65B1494C24700512C81 /* UKDockableWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UKDockableWindow-Info.plist"; sourceTree = "<group>"; };
 		55DEB6611494C24700512C81 /* UKDockableWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UKDockableWindow-Prefix.pch"; sourceTree = "<group>"; };
-		55DEB6761494C2EB00512C81 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = SOURCE_ROOT; };
 		55DEB6791494C31300512C81 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
 		55DEB67B1494C31300512C81 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		55DEB67E1494C35700512C81 /* UKDockableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKDockableView.h; sourceTree = SOURCE_ROOT; };
@@ -101,7 +101,7 @@
 				55DEB6841494C36900512C81 /* NSBezierPathRoundRects.m */,
 				55DEB6851494C36900512C81 /* NSViewViewIntersectingRect.h */,
 				55DEB6861494C36900512C81 /* NSViewViewIntersectingRect.m */,
-				55DEB6751494C2EB00512C81 /* MainMenu.nib */,
+				554A83D31494CCB100AB7923 /* MainMenu.xib */,
 				55DEB65A1494C24700512C81 /* Supporting Files */,
 			);
 			path = UKDockableWindow;
@@ -172,10 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DEB6771494C2EB00512C81 /* MainMenu.nib in Resources */,
 				55DEB67C1494C31300512C81 /* Credits.rtf in Resources */,
 				55DEB67D1494C31300512C81 /* InfoPlist.strings in Resources */,
 				55DEB68B1494C37900512C81 /* grippy.tiff in Resources */,
+				554A83D51494CCB100AB7923 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +197,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		55DEB6751494C2EB00512C81 /* MainMenu.nib */ = {
+		554A83D31494CCB100AB7923 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55DEB6761494C2EB00512C81 /* English */,
+				554A83D41494CCB100AB7923 /* English */,
 			);
-			name = MainMenu.nib;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 		55DEB6781494C31300512C81 /* Credits.rtf */ = {
