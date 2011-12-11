@@ -13,7 +13,17 @@
 
 -(NSWindow*)	windowAtPoint: (NSPoint)pos ignoreWindow: (NSWindow*)ignorew
 {
-	NSArray*		winArray = [self windows];
+	// Block below assumes the following values:
+	assert(NSOrderedAscending == -1);
+	assert(NSOrderedDescending == 1);
+	assert(NSOrderedSame == 0);
+	NSArray*		winArray = [[self windows] sortedArrayUsingComparator:^(id obj1, id obj2)
+		{
+			NSComparisonResult	compResult = [obj1 orderedIndex] -[obj2 orderedIndex];
+			if( compResult > 1 ) compResult = 1;
+			if( compResult < -1 ) compResult = -1;
+			return compResult;
+		}];
 	NSEnumerator*   enny = [winArray objectEnumerator];
 	NSWindow*		theWin = nil;
 	
