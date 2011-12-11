@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "UKDockableWindow";
+CFBundleShortVersionString = "0.1";
+CFBundleGetInfoString = "UKDockableWindow version 0.1, Copyright 2004 M. Uli Kusterer.";
+NSHumanReadableCopyright = "Copyright 2004 M. Uli Kusterer.";
