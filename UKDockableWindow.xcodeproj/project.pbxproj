@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55DEB6541494C24700512C81 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DEB6531494C24700512C81 /* Cocoa.framework */; };
+		55DEB6771494C2EB00512C81 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 55DEB6751494C2EB00512C81 /* MainMenu.nib */; };
+		55DEB67C1494C31300512C81 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55DEB6781494C31300512C81 /* Credits.rtf */; };
+		55DEB67D1494C31300512C81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55DEB67A1494C31300512C81 /* InfoPlist.strings */; };
+		55DEB6801494C35700512C81 /* UKDockableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB67F1494C35700512C81 /* UKDockableView.m */; };
+		55DEB6871494C36900512C81 /* NSApplicationWindowAtPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB6821494C36900512C81 /* NSApplicationWindowAtPoint.m */; };
+		55DEB6881494C36900512C81 /* NSBezierPathRoundRects.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB6841494C36900512C81 /* NSBezierPathRoundRects.m */; };
+		55DEB6891494C36900512C81 /* NSViewViewIntersectingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB6861494C36900512C81 /* NSViewViewIntersectingRect.m */; };
+		55DEB68B1494C37900512C81 /* grippy.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 55DEB68A1494C37900512C81 /* grippy.tiff */; };
+		55DEB68E1494C60800512C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DEB68D1494C60800512C81 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55DEB64F1494C24700512C81 /* UKDockableWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UKDockableWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DEB6531494C24700512C81 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55DEB6561494C24700512C81 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55DEB6571494C24700512C81 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55DEB6581494C24700512C81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55DEB65B1494C24700512C81 /* UKDockableWindow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UKDockableWindow-Info.plist"; sourceTree = "<group>"; };
+		55DEB6611494C24700512C81 /* UKDockableWindow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UKDockableWindow-Prefix.pch"; sourceTree = "<group>"; };
+		55DEB6761494C2EB00512C81 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = SOURCE_ROOT; };
+		55DEB6791494C31300512C81 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		55DEB67B1494C31300512C81 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		55DEB67E1494C35700512C81 /* UKDockableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKDockableView.h; sourceTree = SOURCE_ROOT; };
+		55DEB67F1494C35700512C81 /* UKDockableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKDockableView.m; sourceTree = SOURCE_ROOT; };
+		55DEB6811494C36900512C81 /* NSApplicationWindowAtPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSApplicationWindowAtPoint.h; sourceTree = SOURCE_ROOT; };
+		55DEB6821494C36900512C81 /* NSApplicationWindowAtPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSApplicationWindowAtPoint.m; sourceTree = SOURCE_ROOT; };
+		55DEB6831494C36900512C81 /* NSBezierPathRoundRects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBezierPathRoundRects.h; sourceTree = SOURCE_ROOT; };
+		55DEB6841494C36900512C81 /* NSBezierPathRoundRects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBezierPathRoundRects.m; sourceTree = SOURCE_ROOT; };
+		55DEB6851494C36900512C81 /* NSViewViewIntersectingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSViewViewIntersectingRect.h; sourceTree = SOURCE_ROOT; };
+		55DEB6861494C36900512C81 /* NSViewViewIntersectingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSViewViewIntersectingRect.m; sourceTree = SOURCE_ROOT; };
+		55DEB68A1494C37900512C81 /* grippy.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = grippy.tiff; sourceTree = SOURCE_ROOT; };
+		55DEB68D1494C60800512C81 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55DEB64C1494C24700512C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DEB6541494C24700512C81 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55DEB6441494C24700512C81 = {
+			isa = PBXGroup;
+			children = (
+				55DEB6591494C24700512C81 /* UKDockableWindow */,
+				55DEB6521494C24700512C81 /* Frameworks */,
+				55DEB6501494C24700512C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55DEB6501494C24700512C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55DEB64F1494C24700512C81 /* UKDockableWindow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55DEB6521494C24700512C81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55DEB6531494C24700512C81 /* Cocoa.framework */,
+				55DEB6551494C24700512C81 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55DEB6551494C24700512C81 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55DEB6561494C24700512C81 /* AppKit.framework */,
+				55DEB6571494C24700512C81 /* CoreData.framework */,
+				55DEB6581494C24700512C81 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55DEB6591494C24700512C81 /* UKDockableWindow */ = {
+			isa = PBXGroup;
+			children = (
+				55DEB67E1494C35700512C81 /* UKDockableView.h */,
+				55DEB67F1494C35700512C81 /* UKDockableView.m */,
+				55DEB6811494C36900512C81 /* NSApplicationWindowAtPoint.h */,
+				55DEB6821494C36900512C81 /* NSApplicationWindowAtPoint.m */,
+				55DEB6831494C36900512C81 /* NSBezierPathRoundRects.h */,
+				55DEB6841494C36900512C81 /* NSBezierPathRoundRects.m */,
+				55DEB6851494C36900512C81 /* NSViewViewIntersectingRect.h */,
+				55DEB6861494C36900512C81 /* NSViewViewIntersectingRect.m */,
+				55DEB6751494C2EB00512C81 /* MainMenu.nib */,
+				55DEB65A1494C24700512C81 /* Supporting Files */,
+			);
+			path = UKDockableWindow;
+			sourceTree = "<group>";
+		};
+		55DEB65A1494C24700512C81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DEB65B1494C24700512C81 /* UKDockableWindow-Info.plist */,
+				55DEB6611494C24700512C81 /* UKDockableWindow-Prefix.pch */,
+				55DEB6781494C31300512C81 /* Credits.rtf */,
+				55DEB67A1494C31300512C81 /* InfoPlist.strings */,
+				55DEB68A1494C37900512C81 /* grippy.tiff */,
+				55DEB68D1494C60800512C81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55DEB64E1494C24700512C81 /* UKDockableWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55DEB66D1494C24800512C81 /* Build configuration list for PBXNativeTarget "UKDockableWindow" */;
+			buildPhases = (
+				55DEB64B1494C24700512C81 /* Sources */,
+				55DEB64C1494C24700512C81 /* Frameworks */,
+				55DEB64D1494C24700512C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UKDockableWindow;
+			productName = UKDockableWindow;
+			productReference = 55DEB64F1494C24700512C81 /* UKDockableWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55DEB6461494C24700512C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "The Void Software";
+			};
+			buildConfigurationList = 55DEB6491494C24700512C81 /* Build configuration list for PBXProject "UKDockableWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 55DEB6441494C24700512C81;
+			productRefGroup = 55DEB6501494C24700512C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55DEB64E1494C24700512C81 /* UKDockableWindow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55DEB64D1494C24700512C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DEB6771494C2EB00512C81 /* MainMenu.nib in Resources */,
+				55DEB67C1494C31300512C81 /* Credits.rtf in Resources */,
+				55DEB67D1494C31300512C81 /* InfoPlist.strings in Resources */,
+				55DEB68B1494C37900512C81 /* grippy.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55DEB64B1494C24700512C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DEB6801494C35700512C81 /* UKDockableView.m in Sources */,
+				55DEB6871494C36900512C81 /* NSApplicationWindowAtPoint.m in Sources */,
+				55DEB6881494C36900512C81 /* NSBezierPathRoundRects.m in Sources */,
+				55DEB6891494C36900512C81 /* NSViewViewIntersectingRect.m in Sources */,
+				55DEB68E1494C60800512C81 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55DEB6751494C2EB00512C81 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DEB6761494C2EB00512C81 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		55DEB6781494C31300512C81 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DEB6791494C31300512C81 /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		55DEB67A1494C31300512C81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55DEB67B1494C31300512C81 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55DEB66B1494C24800512C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55DEB66C1494C24800512C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55DEB66E1494C24800512C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UKDockableWindow-Prefix.pch";
+				INFOPLIST_FILE = "UKDockableWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55DEB66F1494C24800512C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UKDockableWindow-Prefix.pch";
+				INFOPLIST_FILE = "UKDockableWindow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55DEB6491494C24700512C81 /* Build configuration list for PBXProject "UKDockableWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DEB66B1494C24800512C81 /* Debug */,
+				55DEB66C1494C24800512C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55DEB66D1494C24800512C81 /* Build configuration list for PBXNativeTarget "UKDockableWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55DEB66E1494C24800512C81 /* Debug */,
+				55DEB66F1494C24800512C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55DEB6461494C24700512C81 /* Project object */;
+}
